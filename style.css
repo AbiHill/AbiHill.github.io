@@ -4,11 +4,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h2 {
-  font-size: 12px;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-}
+/* Top Nav */
 
 .topnav-container {
   overflow: hidden;
@@ -79,11 +75,19 @@ h2 {
 
 }
 
+/* About Section */
+
 .box-two {
   height: 1000px;
   background-color: white;
   overflow: hidden;
 
+}
+.about-full-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .diagonal {
@@ -104,6 +108,69 @@ h2 {
   transition: all 0.3s ease-in;
   z-index: 0;
 }
+
+.about-title {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 88px;
+  padding: 5px;
+  margin: 0;
+}
+
+.about-icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 24px;
+}
+
+.left-about-wrapper {
+  width: 400px;
+  padding: 20px
+}
+.right-about-wrapper{
+  width: 400px;
+  padding: 20px
+}
+
+
+.skill-outline-box {
+  margin-top: 80px;
+  background-color: #1C1B20;
+  width: 400px;
+  height: 400px;
+}
+
+.skills-inner-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.skill-title {
+  color: white;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skill-box-left li {
+  color: white;
+  list-style-type: none;
+}
+
+.skill-box-right-top li {
+  color: white;
+  list-style-type: none;
+}
+.skill-box-right-bottom li {
+  color: white;
+  list-style-type: none;
+}
+
+
+
+
+
 
 
 
