@@ -50,11 +50,7 @@ body {
   display: none;
 }
 
-
-
-
-
-
+/* Hero Section */
 .top-logo-with-parallax {
     background-image: url("images/abi-hill-logo-glitch-two.gif");
     background-position: center;
@@ -64,11 +60,7 @@ body {
     background-attachment: fixed;
 }
 
-.box-one {
-  height: 700px;
-  background-color: white;
 
-}
 
 /* About Section */
 
@@ -105,10 +97,8 @@ body {
 }
 
 .about-title {
-  text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-size: 88px;
-  padding: 5px;
   margin: 0;
 }
 
@@ -116,6 +106,11 @@ body {
   width: 30px;
   height: 30px;
   margin-top: 24px;
+}
+
+.skill-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .left-about-wrapper {
@@ -186,7 +181,14 @@ body {
 }
 
 
-
+.parralax-video {
+    background-image: url("https://i.imgur.com/U5Ccc0f.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    min-height: 700px;
+    background-attachment: fixed;
+}
 
 
 
