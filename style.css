@@ -31,7 +31,6 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 12px;
-  text-transform: uppercase;
 }
 
 .topnav a:hover {
@@ -54,19 +53,15 @@ body {
 
 
 
+
+
 .top-logo-with-parallax {
-    /* Top Bakcground Image */
-    background-image: url("images/abi-hill-logo-glitch-white.gif");
+    background-image: url("images/abi-hill-logo-glitch-two.gif");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 300px;
-
-    /* Set a specific height */
+    background-size: 400px;
     min-height: 700px;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
-
 }
 
 .box-one {
@@ -100,9 +95,9 @@ body {
   content: '';
   background: black;
   width: 200%;
-  height: 200%;
+  height: 150%;
   position: absolute;
-  left: -80px;
+  left: -4px;
   top: 0;
   transform: rotate(2.2deg);
   transition: all 0.3s ease-in;
@@ -132,20 +127,25 @@ body {
   padding: 20px
 }
 
+/* About Skill section */
+
 
 .skill-outline-box {
   margin-top: 80px;
   background-color: #1C1B20;
   width: 400px;
-  height: 400px;
+  height: 500px;
 }
 
 .skills-inner-wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   margin: 0 auto;
-  width: 300px;
+  width: 350px;
 }
+
+
 
 .skill-title {
   color: white;
@@ -153,18 +153,36 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.skill-box-left li {
-  color: white;
-  list-style-type: none;
+.skill-box-right {
+  width: 200px;
+  padding: 10px
 }
 
-.skill-box-right-top li {
-  color: white;
-  list-style-type: none;
+.skill-box-left {
+  width: 200px;
+  padding: 10px
 }
-.skill-box-right-bottom li {
+
+.skill-box-left p {
   color: white;
-  list-style-type: none;
+  color: #4c4a57;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.skill-box-right-top p {
+    color: white;
+    color: #4c4a57;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.skill-box-right-bottom p {
+    color: white;
+    color: #4c4a57;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
