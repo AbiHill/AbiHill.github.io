@@ -1,24 +1,50 @@
 body {
   margin: 0;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topnav-container {
+  overflow: hidden;
+  width: 476px;
+  margin: 0 auto;
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: rgba(0,0,0,0.2);
+
+  background-color:black;
+  text-align:center;
+  position:fixed;
+  z-index:9999;
+  width: 100vw;
+  margin: 0px auto;
+  float:clear;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .topnav a:hover {
-  color: black;
+  color: grey;
+}
+
+.topnav a > img {
+  width: 25px;
+  height: 25px;
 }
 
 .active {
@@ -29,50 +55,56 @@ body {
   display: none;
 }
 
-.topnav-container {
-  width: 394px;
-  margin: 0 auto;
-}
 
 
-.parallax {
+
+.top-logo-with-parallax {
     /* Top Bakcground Image */
-    background-image: url("images/abihill-heading.jpg");
+    background-image: url("images/abi-hill-logo-glitch-white.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
 
     /* Set a specific height */
-    min-height: 600px;
+    min-height: 700px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 .box-one {
+  height: 700px;
+  background-color: white;
+
+}
+
+.box-two {
   height: 1000px;
-  background-color: rgba(0,0,0,0.2);
+  background-color: white;
+  overflow: hidden;
 
 }
 
-.pattern-one {
-  height: 400px;
-  width: 200px;
-  background-color: pink;
+.diagonal {
+  width: 100vw;
+  height: 35px;
+  position: relative;
 }
 
-.pattern-two {
-  height: 400px;
-  width: 200px;
-  background-color: green;
+.diagonal:after {
+  content: '';
+  background: black;
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  left: -80px;
+  top: 0;
+  transform: rotate(2.2deg);
+  transition: all 0.3s ease-in;
+  z-index: 0;
 }
 
-
-.pattern-three {
-  height: 400px;
-  width: 200px;
-  background-color: blue;
-}
 
 
 
