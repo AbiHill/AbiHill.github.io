@@ -65,7 +65,7 @@ body {
 /* About Section */
 
 .box-two {
-  height: 1000px;
+  height: 800px;
   background-color: white;
   overflow: hidden;
 
@@ -128,7 +128,7 @@ body {
 .skill-outline-box {
   margin-top: 80px;
   background-color: #1C1B20;
-  width: 400px;
+  width: 450px;
   height: 500px;
 }
 
@@ -149,7 +149,7 @@ body {
 }
 
 .skill-box-right {
-  width: 200px;
+  width: 298px;
   padding: 10px
 }
 
@@ -160,36 +160,58 @@ body {
 
 .skill-box-left p {
   color: white;
-  color: #4c4a57;
+  color: #686868;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  padding-top: 3px;
 }
 
 
 
 .skill-box-right-top p {
     color: white;
-    color: #4c4a57;
+    color: #686868;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 3px;
 }
 .skill-box-right-bottom p {
     color: white;
-    color: #4c4a57;
+    color: #686868;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 3px;
 }
 
 
-.parralax-video {
-    background-image: url("https://i.imgur.com/U5Ccc0f.gif");
+.parralax-zigzag {
+    background-image: url("images/zigzag.jpg");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: 400px;
-    min-height: 700px;
+    min-height: 400px;
     background-attachment: fixed;
 }
 
+/* BOX THREE - experience */
+
+.box-three {
+  height: 800px;
+  background-color: black;
+  overflow: hidden;
+
+}
+
+.experience-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 88px;
+  margin: 0;
+  color: white;
+}
+
+.experience-work-wrapper {
+  width: 600px;
+
+}
 
 
 
