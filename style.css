@@ -209,9 +209,74 @@ body {
 }
 
 .experience-work-wrapper {
-  width: 600px;
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.experience-work-wrapper div img {
+  width: 200px;
+}
+
+.experience-full-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.experience-work-wrapper p {
+  color: white;
+  padding-right: 10px;
+}
+
+.experience-work-wrapper h4 {
+  color: white;
+}
+.experience-work-wrapper h5 {
+  color: white;
+}
+
+/* BOX Four - Projects----- */
+
+.box-four {
+  height: 800px;
+  background-color: white;
+  overflow: hidden;
 
 }
+
+.projects-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 88px;
+  margin: 0;
+  color: black;
+}
+
+.projects-work-wrapper {
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.projects-work-wrapper img {
+  width: 65%;
+  height: 20%;
+
+}
+
+.projects-full-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+
 
 
 
