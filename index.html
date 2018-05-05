@@ -6,6 +6,8 @@
     <script src="app.js" type="text/javascript"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="flickity.css" media="screen">
   </head>
   <body>
     <!-- TOP NAV -->
@@ -148,9 +150,24 @@
         <img class="about-icon" src="images/logo-white.gif" alt="logo">
         <h2 class="projects-title">projects.</h2>
 
+
         <div class="projects-work-wrapper">
 
-            <img src="images/mac-screen.png" alt="cath kidston logo">
+
+
+            <div class="projects-screen">
+              <div class="flickity-container">
+                <div class="gallery js-flickity">
+                  <img class="gallery-cell" src="images/ck-logo-web.png" alt="">
+                  <img class="gallery-cell" src="images/ck-logo-web.png" alt="">
+                  <img class="gallery-cell" src="images/ck-logo-web.png" alt="">
+                  <img class="gallery-cell" src="images/ck-logo-web.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <!-- Flickity HTML init -->
+
 
         </div>
 
@@ -160,6 +177,6 @@
   </div>   <!-- /box four -->
 
 
-
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </body>
 </html>
