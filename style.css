@@ -130,7 +130,7 @@ body {
   margin-top: 80px;
   background-color: #1C1B20;
   width: 450px;
-  height: 500px;
+  height: 545px;
 }
 
 .skills-inner-wrapper {
@@ -155,7 +155,7 @@ body {
 }
 
 .skill-box-left {
-  width: 200px;
+  width: 220px;
   padding: 10px
 }
 
@@ -193,6 +193,8 @@ body {
     background-attachment: fixed;
 }
 
+
+
 /* BOX THREE - experience */
 
 .box-three {
@@ -216,6 +218,10 @@ body {
   flex-direction: row;
   justify-content: space-around;
   margin: 0 auto;
+  flex-wrap: wrap;
+}
+.company-work-experience-block {
+  width: 300px;
 }
 
 .experience-work-wrapper div img {
@@ -242,7 +248,7 @@ body {
 /* BOX Four - Projects----- */
 
 .box-four {
-  height: 1500px;
+  height: 1700px;
   background-color: white;
   overflow: hidden;
 
@@ -292,6 +298,35 @@ body {
   justify-content: space-between;
   flex-direction: row;
 }
+
+.project-block {
+  max-width: 400px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #1C1B20;
+
+}
+
+.project-block i {
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
+
+}
+
+.project-block p {
+  min-height: 150px;
+  color: white;
+}
+
+.project-block h4 {
+  color: white;
+}
+
+.project-block h5 {
+  color: #686868;
+}
+
 /* Box Five - Contacts */
 
 .box-five {
@@ -304,6 +339,8 @@ body {
 .contacts-full-wrapper {
   width: 80%;
   margin: 0 auto;
+
+
 }
 
 .contacts-title {
@@ -325,6 +362,18 @@ body {
 
 .contacts-container i {
   padding-right: 15px;
+
+}
+
+.copyright-block {
+  color: white;
+  float: right;
+}
+
+.contacts-and-copy-right-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 
