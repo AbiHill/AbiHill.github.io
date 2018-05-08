@@ -71,11 +71,13 @@ body {
   overflow: hidden;
 
 }
+
 .about-full-wrapper {
   display: flex;
   flex-direction: row;
   width: 80%;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .diagonal {
@@ -198,7 +200,7 @@ body {
 /* BOX THREE - experience */
 
 .box-three {
-  height: 800px;
+  height: 650px;
   background-color: black;
   overflow: hidden;
 
@@ -222,6 +224,12 @@ body {
 }
 .company-work-experience-block {
   width: 300px;
+}
+.company-work-experience-block h4 {
+  min-height: 30px;
+}
+.company-work-experience-block h5 {
+  min-height: 20px;
 }
 
 .experience-work-wrapper div img {
@@ -280,7 +288,7 @@ body {
   background-size: contain;
   min-width: 73%;
   max-width: 80%;
-  min-height: 600px;
+  min-height: 535px;
   margin: 0 auto;
 
 
@@ -378,6 +386,55 @@ body {
 
 
 /* MOBILE RESPONSIVE */
+
+@media screen and (max-width: 1070px) {
+  .box-three {
+    height: 1050px;
+
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .box-four {
+    height: 1050px;
+
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .box-two {
+    height: 1500px;
+
+  }
+
+  .box-three {
+    height: 1000px;
+
+  }
+
+  .skill-outline-box {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .box-four {
+    height: 1750px;
+
+  }
+
+  .projects-info-wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .box-three {
+    height: 1400px;
+
+  }
+}
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
