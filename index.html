@@ -13,11 +13,11 @@
     <!-- TOP NAV -->
   <div class="topnav" id="myTopnav">
     <div class="topnav-container">
-      <a href="#" class="active">about.</a>
-      <a href="#">experience.</a>
-      <a href="#"><img src="images/logo-white.gif" alt="abi hill logo"></a>
-      <a href="#">projects.</a>
-      <a href="#about">contact.</a>
+      <a href="#about" class="active">about.</a>
+      <a href="#experience">experience.</a>
+      <a href="#top"><img src="images/logo-white.gif" alt="abi hill logo"></a>
+      <a href="#projects">projects.</a>
+      <a href="#contact">contact.</a>
 
       <!-- The below needs to be converted in to vanilla javascript -->
     </div>
@@ -28,12 +28,13 @@
     <!-- this is the top parralax -->
   <div class="top-logo-with-parallax"></div>
 
-
+  <a name="about"></a>
   <div class="box-two">
     <div class="diagonal"></div>
     <div class="about-full-wrapper">
       <div class="left-about-wrapper">
         <img class="about-icon" src="images/logo.gif" alt="logo">
+
         <h2 class="about-title">about.</h2>
         <h3>web developer | london</h3>
         <p>Hello, my name's Abi. I'm a full stack Web Developer & Digital Designer from London. </br></br>
@@ -105,13 +106,15 @@
   </div>   <!-- /box two -->
 
 
-  <div class="parralax-zigzag">in here put a glitch gif of my face or pixellated</div>
+  <div class="parralax-zigzag"></div>
 
   <!-- Box Three Experience -->
+  <a name="experience"></a>
   <div class="box-three">
     <div class="experience-full-wrapper">
 
         <img class="about-icon" src="images/logo-white.gif" alt="logo">
+
         <h2 class="experience-title">experience.</h2>
 
         <div class="experience-work-wrapper">
@@ -144,10 +147,12 @@
   <div class="parralax-zigzag"></div>
 
   <!-- Box Four Projects -->
+  <a name="projects"></a>
   <div class="box-four">
     <div class="projects-full-wrapper">
 
-        <img class="about-icon" src="images/logo-white.gif" alt="logo">
+        <img class="about-icon" src="images/logo.gif" alt="logo">
+
         <h2 class="projects-title">projects.</h2>
 
 
@@ -159,7 +164,7 @@
               <div class="flickity-container">
                 <div class="gallery js-flickity">
                   <a href="https://findems.herokuapp.com/" target="_blank"><img class="gallery-cell" src="images/find-ems-screen.jpg" alt=""></a>
-
+                  <!-- Flickity HTML init -->
                   <img class="gallery-cell" src="images/tag-mate-screen.jpg" alt="">
                   <img class="gallery-cell" src="images/crave-screen.jpg" alt="">
                   <img class="gallery-cell" src="images/rec-head-screen.jpg" alt="">
@@ -170,16 +175,67 @@
                 </div>
               </div>
             </div>
+            <div class="projects-info-wrapper">
+              <div class="cath-kidston-work-experience-block">
 
-            <!-- Flickity HTML init -->
+                <h4>Find'ems</h4>
+                <h5>HTML | CSS | JavaScript</h5>
+                <p>A game that requires the user to find objects in the picture in a certain time frame. The game has two levels and a scoring system. It’s an interactive version of the popular game “Where’s Wally”.</p>
+                <p><i class="fas fa-link"></i> <a href="https://findems.herokuapp.com/">findems.herokuapp.com</a></p>
+                <p><i class="fab fa-github-square"></i> <a href="https://github.com/AbiHill/WDI_LDN_PROJECT1">github.com/AbiHill/WDI_LDN_PROJECT1</a></p>
+              </div>
+              <div class="cath-kidston-work-experience-block">
 
+                <h4>Tag-Mate</h4>
+                <h5>HTML | SCSS | JavaScript | JSON | EJS | Node.js | MongoDB/Mongoose</h5>
+                <p>A website that allows users to submit images of Street Art along with the location as to where they spotted it. The user is able to register, log in and search for street art by location and artist. The project included authentication and Google Map API integration. </p>
+                <p><i class="fas fa-link"></i> <a href="https://tag-mate.herokuapp.com/"> tag-mate.herokuapp.com</a></p>
+                <p><i class="fab fa-github-square"></i> <a href="https://github.com/AbiHill/WDI_LDN_PROJECT2"> github.com/AbiHill/WDI_LDN_PROJECT2</a></p>
+              </div>
+            </div>
+            <div class="projects-info-wrapper">
+              <div class="cath-kidston-work-experience-block">
+                <h4>Crave</h4>
+                <h5>HTML | SCSS | JavaScript | node.js | MongoDB | Google Maps/Places API</h5>
+                <p>Group project. An app that allows users to plot a route home after a night out and see what food places are open on their way home. </p>
+                <p><i class="fas fa-link"></i> <a href="https://findems.herokuapp.com/">findems.herokuapp.com</a></p>
+                <p><i class="fab fa-github-square"></i> <a href="https://github.com/AbiHill/WDI_LDN_PROJECT1">github.com/AbiHill/WDI_LDN_PROJECT1</a></p>
+              </div>
+              <div class="cath-kidston-work-experience-block">
 
+                <h4>Rec Head</h4>
+                <h5>HTML | SCSS | JavaScript | node.js | MongoDB | Google Maps/Places API | FileStack</h5>
+                <p>a recreational sport meet up app which allows users to create their own sports events and users can join them.</p>
+                <p><i class="fas fa-link"></i> <a href="https://findems.herokuapp.com/">findems.herokuapp.com</a></p>
+                <p><i class="fab fa-github-square"></i> <a href="https://github.com/AbiHill/WDI_LDN_PROJECT1">github.com/AbiHill/WDI_LDN_PROJECT1</a></p>
+              </div>
+
+            </div>
         </div>
-
-
-
     </div>
   </div>   <!-- /box four -->
+
+  <div class="parralax-zigzag"></div>
+
+  <!-- Box Five Contacts -->
+  <a name="contact"></a>
+  <div class="box-five">
+    <div class="contacts-full-wrapper">
+        <img class="about-icon" src="images/logo-white.gif" alt="logo">
+
+        <h2 class="contacts-title">contact.</h2>
+        <div class="contacts-container">
+          <p class="contact-p"><i class="far fa-envelope"></i><a href="mailto:hello@abihill.com" target="_blank"> hello@abihill.com</a></p>
+          <p class="contact-p"><i class="fas fa-mobile-alt"></i><a href="tel:+4407720383798" target="_blank"> 07720383798</a></p>
+          <p class="contact-p"><i class="fab fa-github"></i><a href="https://github.com/AbiHill" target="_blank"> https://github.com/abihill</a></p>
+          <p class="contact-p"><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/abi-hill/" target="_blank"> https://www.linkedin.com/in/abi-hill/</a></p>
+          <p class="contact-p"><i class="fab fa-twitter-square"></i><a href="https://twitter.com/AbiHillUK" target="_blank"> https://twitter.com/AbiHillUK</a></p>
+        </div>
+    </div>
+  </div>   <!-- /box three -->
+
+
+
 
 
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

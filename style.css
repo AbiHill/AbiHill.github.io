@@ -242,7 +242,7 @@ body {
 /* BOX Four - Projects----- */
 
 .box-four {
-  height: 850px;
+  height: 1500px;
   background-color: white;
   overflow: hidden;
 
@@ -277,6 +277,7 @@ body {
   min-height: 600px;
   margin: 0 auto;
 
+
 }
 
 .flickity-container {
@@ -284,12 +285,47 @@ body {
   width: 92%;
   height: 50%;
   margin: 0 auto;
+}
+
+.projects-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+/* Box Five - Contacts */
+
+.box-five {
+  height: 400px;
+  background-color: black;
+  overflow: hidden;
 
 }
 
+.contacts-full-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
 
+.contacts-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 88px;
+  margin: 0;
+  color: white;
+}
 
+.contact-p {
+  color: white;
 
+}
+
+.contacts-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.contacts-container i {
+  padding-right: 15px;
+}
 
 
 /* MOBILE RESPONSIVE */
