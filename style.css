@@ -53,31 +53,12 @@ body {
 
 /* Hero Section */
 .top-logo-with-parallax {
-    background-image: url("images/abi-hill-logo-glitch-two.gif");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 400px;
-    min-height: 700px;
-    background-attachment: fixed;
-}
-
-
-
-/* About Section */
-
-.box-two {
-  height: 900px;
-  background-color: white;
-  overflow: hidden;
-
-}
-
-.about-full-wrapper {
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  margin: 0 auto;
-  flex-wrap: wrap;
+  background-image: url("images/abi-hill-logo-glitch-two.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  min-height: 700px;
+  background-attachment: fixed;
 }
 
 .diagonal {
@@ -99,16 +80,53 @@ body {
   z-index: 0;
 }
 
-.about-title {
+.white-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 88px;
   margin: 0;
+  color: white;
 }
+
+.black-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 88px;
+  margin: 0;
+  color: black;
+}
+
+/* About Section */
+
+.box-two {
+  height: 900px;
+  background-color: white;
+  overflow: hidden;
+
+}
+
+.about-full-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+
 
 .about-icon {
   width: 30px;
   height: 30px;
   margin-top: 24px;
+}
+
+.left-about-wrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+.left-about-wrapper a:hover {
+  text-decoration: none;
+  color: grey;
 }
 
 .skill-icon {
@@ -206,12 +224,7 @@ body {
 
 }
 
-.experience-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 88px;
-  margin: 0;
-  color: white;
-}
+
 
 .experience-work-wrapper {
   padding-top: 50px;
@@ -262,12 +275,7 @@ body {
 
 }
 
-.projects-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 88px;
-  margin: 0;
-  color: black;
-}
+
 
 .projects-work-wrapper {
   padding-top: 50px;
@@ -335,6 +343,10 @@ body {
   color: #686868;
 }
 
+.project-block i:hover {
+  color: grey;
+}
+
 /* Box Five - Contacts */
 
 .box-five {
@@ -351,12 +363,7 @@ body {
 
 }
 
-.contacts-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 88px;
-  margin: 0;
-  color: white;
-}
+
 
 .contact-p {
   color: white;
@@ -382,6 +389,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.contacts-container a:hover {
+  color: grey;
 }
 
 
@@ -438,6 +449,10 @@ body {
 
   .copyright-block {
     float: left;
+  }
+
+  .projects-screen {
+    min-height: 300px;
   }
 }
 
