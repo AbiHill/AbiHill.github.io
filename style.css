@@ -137,7 +137,8 @@ body {
 
 /* Hero Section */
 .top-logo-with-parallax {
-  background-image: url("https://abihill.github.io/images/abi-hill-logo-glitch-white.gif");
+  /* background-image: url("https://abihill.github.io/images/abi-hill-logo-glitch-white.gif"); */
+  background-image: url("images/LOGO-abi.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 400px;
