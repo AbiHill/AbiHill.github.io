@@ -9,7 +9,7 @@ body {
 
 .topnav-container {
   overflow: hidden;
-  width: 476px;
+  width: 392px;
   margin: 0 auto;
 }
 
@@ -106,7 +106,8 @@ body {
 .about-full-wrapper {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  justify-content: space-around;
+  width: 78%;
   margin: 0 auto;
   flex-wrap: wrap;
 }
@@ -135,11 +136,11 @@ body {
 }
 
 .left-about-wrapper {
-  width: 400px;
+  width: 450px;
   padding: 20px
 }
 .right-about-wrapper{
-  width: 400px;
+  width: 455px;
   padding: 20px
 }
 
@@ -171,12 +172,12 @@ body {
 }
 
 .skill-box-right {
-  width: 298px;
+  width: 290px;
   padding: 10px
 }
 
 .skill-box-left {
-  width: 220px;
+  width: 260px;
   padding: 10px
 }
 
@@ -219,7 +220,7 @@ body {
 /* BOX THREE - experience */
 
 .box-three {
-  height: 650px;
+  height: 670px;
   background-color: black;
   overflow: hidden;
 
@@ -270,7 +271,7 @@ body {
 /* BOX Four - Projects----- */
 
 .box-four {
-  height: 1700px;
+  height: 2400px;
   background-color: white;
   overflow: hidden;
 
@@ -432,7 +433,7 @@ body {
 
 @media screen and (max-width: 1040px) {
   .box-four {
-    height: 2400px;
+    height: 3900px;
 
   }
 
