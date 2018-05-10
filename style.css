@@ -141,6 +141,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 400px;
+  -o-background-size: 400px;
+  -moz-background-size: 400px;
+  -webkit-background-size: 400px;
   min-height: 700px;
   background-attachment: fixed;
 }
