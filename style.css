@@ -558,6 +558,7 @@ body {
     background-attachment: fixed;
     background-image: url("images/LOGO-abi.jpg");
     width: 370px;
+    margin: 0 auto;
   }
 }
 
