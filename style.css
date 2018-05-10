@@ -141,10 +141,10 @@ body {
   /* background-image: url("images/LOGO-abi.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 400px;
-  -o-background-size: 400px;
-  -moz-background-size: 400px;
-  -webkit-background-size: 400px;
+  background-size: contain;
+  -o-background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
   min-height: 700px;
   background-attachment: fixed;
 }
