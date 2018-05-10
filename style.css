@@ -490,12 +490,6 @@ body {
   }
 }
 
-@media screen and (max-width: 1040px) {
-  .box-four {
-    height: 1050px;
-
-  }
-}
 
 @media screen and (max-width: 1000px) {
 
@@ -516,7 +510,7 @@ body {
 
 @media screen and (max-width: 1040px) {
   .box-four {
-    height: 3900px;
+    height: 3675px;
 
   }
 
