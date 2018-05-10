@@ -137,16 +137,16 @@ body {
 
 /* Hero Section */
 .top-logo-with-parallax {
-  /* background-image: url("https://abihill.github.io/images/abi-hill-logo-glitch-white.gif"); */
+  background-image: url("https://abihill.github.io/images/abi-hill-logo-glitch-white.gif");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  -o-background-size: contain;
-  -moz-background-size: contain;
-  -webkit-background-size: contain;
-  min-height: 700px;
+  background-size: 400px;
+  -o-background-size: 400px;
+  -moz-background-size: 400px;
+  -webkit-background-size: 400px;
+  min-height: 800px;
   background-attachment: fixed;
-  background-image: url("images/LOGO-abi.jpg");
+  /* background-image: url("images/LOGO-abi.jpg"); */
 }
 
 
@@ -555,10 +555,8 @@ body {
     -moz-background-size: contain;
     -webkit-background-size: contain;
     min-height: 700px;
-    background-attachment: local;
+    background-attachment: inherit;
     background-image: url("images/LOGO-abi.jpg");
-    width: 370px;
-    margin: 0 auto;
   }
 }
 
