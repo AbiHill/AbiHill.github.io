@@ -547,7 +547,7 @@ body {
   }
 
   .top-logo-with-parallax {
-    /* background-image: url("https://abihill.github.io/images/abi-hill-logo-glitch-white.gif"); */
+    background-image: url("https://abihill.github.io/images/abi-hill-logo-glitch-white.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -556,7 +556,7 @@ body {
     -webkit-background-size: contain;
     min-height: 700px;
     background-attachment: inherit;
-    background-image: url("images/LOGO-abi.jpg");
+    /* background-image: url("images/LOGO-abi.jpg"); */
   }
 }
 
