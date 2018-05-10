@@ -149,24 +149,7 @@ body {
   background-attachment: fixed;
 }
 
-.diagonal {
-  width: 100vw;
-  height: 35px;
-  position: relative;
-}
 
-.diagonal:after {
-  content: '';
-  background: black;
-  width: 200%;
-  height: 150%;
-  position: absolute;
-  left: -4px;
-  top: 0;
-  transform: rotate(2.2deg);
-  transition: all 0.3s ease-in;
-  z-index: 0;
-}
 
 .white-title {
   font-family: 'Montserrat', sans-serif;
@@ -198,6 +181,7 @@ body {
   width: 78%;
   margin: 0 auto;
   flex-wrap: wrap;
+  max-width: 1000px;
 }
 
 
@@ -405,12 +389,14 @@ body {
   width: 92%;
   height: 50%;
   margin: 0 auto;
+  max-width: 605px;
 }
 
 .projects-info-wrapper {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  max-width: 825px;
 }
 
 .project-block {
