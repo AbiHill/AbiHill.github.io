@@ -3,6 +3,7 @@ body {
   margin: 0;
   background-color: black;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 /* Top Nav */
@@ -49,6 +50,55 @@ body {
 .topnav .icon {
   display: none;
 }
+
+/* Diagonal Line */
+
+.diagonal-white-right {
+    width: 101%;
+    border-bottom: 100px solid white;
+    -webkit-transform:
+        translateY(-50px)
+        translateX(0px)
+        rotate(2deg);
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.diagonal-white-left {
+    width: 101%;
+    border-bottom: 100px solid white;
+    -webkit-transform:
+        translateY(-50px)
+        translateX(0px)
+        rotate(-2deg);
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.diagonal-black-right {
+    width: 101%;
+    border-bottom: 100px solid black;
+    -webkit-transform:
+        translateY(-50px)
+        translateX(0px)
+        rotate(-2deg);
+    position: absolute;
+    overflow-x: hidden;
+    right: -1px;
+}
+
+.diagonal-black-left {
+    width: 101%;
+    border-bottom: 100px solid black;
+    -webkit-transform:
+        translateY(-50px)
+        translateX(0px)
+        rotate(2deg);
+    position: absolute;
+    overflow-x: hidden;
+    right: -1px;
+}
+
 
 /* Back to top button */
 
@@ -242,7 +292,15 @@ body {
 
 
 .parralax-zigzag {
-    background-image: url("images/zigzag.jpg");
+    background-image: url("images/zigzag.png");
+    background-position: center;
+    background-size: 400px;
+    min-height: 400px;
+    background-attachment: fixed;
+}
+
+.parralax-crosses {
+    background-image: url("images/crosses.gif");
     background-position: center;
     background-size: 400px;
     min-height: 400px;
@@ -486,6 +544,9 @@ body {
   .black-title {
     font-size: 55px;
   }
+
+
+
   .box-three {
     height: 1400px;
 
@@ -500,6 +561,8 @@ body {
     min-width: 250px;
   }
 }
+
+
 
 @media screen and (max-width: 600px) {
   .topnav a {display: none;}
