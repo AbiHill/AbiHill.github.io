@@ -555,7 +555,7 @@ body {
     -moz-background-size: contain;
     -webkit-background-size: contain;
     min-height: 700px;
-    background-attachment: fixed;
+    background-attachment: local;
     background-image: url("images/LOGO-abi.jpg");
     width: 370px;
     margin: 0 auto;
