@@ -401,6 +401,7 @@ body {
 
 .project-block {
   max-width: 400px;
+  min-width: 300px;
   padding: 20px;
   margin: 20px;
   background-color: #1C1B20;
