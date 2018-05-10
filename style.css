@@ -139,7 +139,6 @@ body {
 .top-logo-with-parallax {
   background-image: url("images/abi-hill-logo-glitch-two.gif");
   background-position: center;
-  background-color: red;
   background-repeat: no-repeat;
   background-size: 400px;
   min-height: 700px;
