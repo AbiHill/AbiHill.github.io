@@ -28,7 +28,7 @@ $( document ).ready(function() {
     .click(function(event) {
       // On-page links
       if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '')
         &&
         location.hostname === this.hostname
       ) {
@@ -46,16 +46,40 @@ $( document ).ready(function() {
             // Must change focus!
             var $target = $(target);
             $target.focus();
-            if ($target.is(":focus")) { // Checking if the target was focused
+            if ($target.is(':focus')) { // Checking if the target was focused
               return false;
             } else {
               $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
               $target.focus(); // Set focus again
-            };
+            }
           });
         }
       }
     });
+
+  // back to the top button function
+
+  if ($('#back-to-top').length) {
+    const scrollTrigger = 100, // px
+      backToTop = function () {
+        const scrollTop = $(window).scrollTop();
+        if (scrollTop > scrollTrigger) {
+          $('#back-to-top').addClass('show');
+        } else {
+          $('#back-to-top').removeClass('show');
+        }
+      };
+    backToTop();
+    $(window).on('scroll', function () {
+      backToTop();
+    });
+    $('#back-to-top').on('click', function (e) {
+      e.preventDefault();
+      $('html,body').animate({
+        scrollTop: 0
+      }, 700);
+    });
+  }
 
 
 });

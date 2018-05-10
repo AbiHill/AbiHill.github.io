@@ -8,7 +8,6 @@ body {
 /* Top Nav */
 
 .topnav-container {
-  overflow: hidden;
   width: 392px;
   margin: 0 auto;
 }
@@ -49,6 +48,41 @@ body {
 
 .topnav .icon {
   display: none;
+}
+
+/* Back to top button */
+
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}
+
+.top {
+  font-size: 30px;
+}
+
+.top:hover {
+  color: grey;
 }
 
 /* Hero Section */
@@ -468,10 +502,13 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  .topnav-container {
+    margin: 0;
   }
 }
 
