@@ -575,16 +575,12 @@ body {
 
 /* Smaller screens tablets */
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 880px) {
   .top-logo-with-parallax {
     background-image: url("https://abihill.github.io/images/abi-hill-logo-glitch-white.gif");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    -o-background-size: contain;
-    -moz-background-size: contain;
-    -webkit-background-size: contain;
-    min-height: 700px;
+    min-height: 550px;
     background-attachment: inherit;
     /* background-image: url("images/LOGO-abi.jpg"); */
   }
