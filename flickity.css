@@ -13,13 +13,13 @@
   width: 100%;
   max-width: 616px;
   margin: 0 auto;
+  position: relative;
 }
 
 .gallery-cell {
+  position: relative;
   margin-top: 4%;
   width: 100%;
-  /* height: 343px; */
-  margin-right: 10px;
   background: #8C8;
   counter-increment: gallery-cell;
 }

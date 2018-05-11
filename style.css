@@ -383,7 +383,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   min-width: 73%;
-  max-width: 80%;
+  /* max-width: 80%; */
   min-height: 530px;
   margin: 0 auto;
 }
@@ -612,10 +612,7 @@ body {
     float: left;
   }
 
-  /* .projects-screen {
-    min-height: 300px;
-    min-width: 250px;
-  } */
+
 
   .top-logo-with-parallax {
     background-image: url("https://abihill.github.io/images/abi-hill-logo-glitch-white.gif");
