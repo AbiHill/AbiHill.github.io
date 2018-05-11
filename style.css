@@ -490,12 +490,70 @@ body {
 
 /* MOBILE RESPONSIVE */
 
+/* Bigger Screens */
+@media screen and (min-width: 1080px) {
+
+  /* Diagonal Line */
+
+  .diagonal-white-right {
+      width: 101%;
+      border-bottom: 85px solid white;
+      -webkit-transform:
+          translateY(-50px)
+          translateX(0px)
+          rotate(2deg);
+      position: absolute;
+      overflow-x: hidden;
+  }
+
+  .diagonal-white-left {
+      width: 101%;
+      border-bottom: 85px solid white;
+      -webkit-transform:
+          translateY(-50px)
+          translateX(0px)
+          rotate(-1.5deg);
+      position: absolute;
+      overflow-x: hidden;
+  }
+
+  .diagonal-black-right {
+      width: 101%;
+      border-bottom: 85px solid black;
+      -webkit-transform:
+          translateY(-50px)
+          translateX(0px)
+          rotate(-1.5deg);
+      position: absolute;
+      overflow-x: hidden;
+      right: -1px;
+  }
+
+  .diagonal-black-left {
+      width: 101%;
+      border-bottom: 85px solid black;
+      -webkit-transform:
+          translateY(-50px)
+          translateX(0px)
+          rotate(2deg);
+      position: absolute;
+      overflow-x: hidden;
+      right: -1px;
+  }
+
+
+}
+
+/* moving window down on laptops */
+
 @media screen and (max-width: 1070px) {
   .box-three {
     height: 1050px;
 
   }
 }
+
+
 
 
 @media screen and (max-width: 1000px) {
@@ -526,6 +584,8 @@ body {
     justify-content: center;
   }
 }
+
+/* Smaller screens tablets */
 
 @media screen and (max-width: 760px) {
 
@@ -567,7 +627,7 @@ body {
   }
 }
 
-
+/* iphones */
 
 @media screen and (max-width: 600px) {
   .topnav a {display: none;}

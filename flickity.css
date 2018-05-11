@@ -8,6 +8,14 @@
   background: #EEE;
 } */
 
+.flickity-container {
+  position: relative;
+  width: 92%;
+  height: 50%;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
 .gallery-cell {
   margin-top: 4%;
   width: 100%;
