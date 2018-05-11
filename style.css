@@ -391,13 +391,7 @@ body {
 
 }
 
-.flickity-container {
-  position: relative;
-  width: 92%;
-  height: 50%;
-  margin: 0 auto;
-  max-width: 605px;
-}
+
 
 .projects-info-wrapper {
   display: flex;
