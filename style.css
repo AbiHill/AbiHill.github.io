@@ -488,41 +488,6 @@ body {
 
 /* moving window down on laptops */
 
-@media screen and (max-width: 1070px) {
-  .box-three {
-    height: 1050px;
-
-  }
-}
-
-
-
-
-@media screen and (max-width: 1000px) {
-
-  .box-two {
-    height: 1650px;
-
-  }
-
-  .box-three {
-    height: 1000px;
-
-  }
-
-  .skill-outline-box {
-    margin-top: 0;
-  }
-}
-
-@media screen and (max-width: 1040px) {
-  .box-four {
-    height: 3700px;
-
-  }
-
-}
-
 @media screen and (max-width: 1280px) {
   /* Diagonal Line */
 
@@ -573,6 +538,45 @@ body {
   }
 }
 
+@media screen and (max-width: 1070px) {
+  .box-three {
+    height: 1050px;
+
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1040px) {
+  .box-four {
+    height: 3700px;
+
+  }
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+  .box-two {
+    height: 1650px;
+
+  }
+
+  .box-three {
+    height: 1050px;
+
+  }
+
+  .skill-outline-box {
+    margin-top: 0;
+  }
+}
+
 /* Smaller screens tablets */
 
 @media screen and (max-width: 880px) {
@@ -584,9 +588,11 @@ body {
     background-attachment: inherit;
     /* background-image: url("images/LOGO-abi.jpg"); */
   }
+
+
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 750px) {
 
   .white-title {
     font-size: 55px;
@@ -595,7 +601,6 @@ body {
   .black-title {
     font-size: 55px;
   }
-
 
 
   .box-three {
@@ -607,10 +612,10 @@ body {
     float: left;
   }
 
-  .projects-screen {
+  /* .projects-screen {
     min-height: 300px;
     min-width: 250px;
-  }
+  } */
 
   .top-logo-with-parallax {
     background-image: url("https://abihill.github.io/images/abi-hill-logo-glitch-white.gif");
