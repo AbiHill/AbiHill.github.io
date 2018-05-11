@@ -364,28 +364,34 @@ body {
 
 }
 
-
-
-.projects-work-wrapper {
-  padding-top: 50px;
-}
-
-
 .projects-full-wrapper {
   width: 80%;
   margin: 0 auto;
 
+
 }
+
+
+.projects-work-wrapper {
+  padding-top: 50px;
+  position: relative;
+  max-height: 250px;
+}
+
+
+
 
 .projects-screen {
   background-image: url(images/mac-screen.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  min-width: 73%;
-  /* max-width: 80%; */
+  width: 100%;
+  height: 500px;
+  min-width: 300px;
   min-height: 530px;
   margin: 0 auto;
+  position: relative;
 }
 
 
@@ -434,6 +440,86 @@ body {
   color: grey;
 }
 
+/* external css: flickity.css */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* .gallery {
+  background: #EEE;
+} */
+
+
+.flickity-container {
+  width: 100%;
+  max-width: 616px;
+  margin: 0 auto;
+  position: absolute;
+  left:0;
+  right:0;
+  top:4%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.gallery-cell {
+  position: relative;
+  width: 100%;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+/* big buttons, no circle */
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+}
+/* arrow color */
+.flickity-prev-next-button .arrow {
+  fill: white;
+}
+.flickity-prev-next-button.no-svg {
+  color: white;
+}
+.flickity-prev-next-button:hover {
+  background: transparent;
+}
+/* hide disabled button */
+.flickity-prev-next-button:disabled {
+  display: none;
+}
+
+/* position dots in gallery */
+.flickity-page-dots {
+  bottom: 0px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
+
 /* Box Five - Contacts */
 
 .box-five {
@@ -481,6 +567,8 @@ body {
 .contacts-container a:hover {
   color: grey;
 }
+
+
 
 
 /* MOBILE RESPONSIVE */
@@ -578,6 +666,31 @@ body {
 }
 
 /* Smaller screens tablets */
+
+@media screen and (max-width: 810px) {
+  .projects-screen {
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    min-width: 300px;
+    min-height: 530px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .projects-info-wrapper {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: -50%;
+}
+}
 
 @media screen and (max-width: 880px) {
   .top-logo-with-parallax {
