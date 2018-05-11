@@ -59,7 +59,7 @@ body {
     -webkit-transform:
         translateY(-50px)
         translateX(0px)
-        rotate(2deg);
+        rotate(1.5deg);
     position: absolute;
     overflow-x: hidden;
 }
@@ -70,7 +70,7 @@ body {
     -webkit-transform:
         translateY(-50px)
         translateX(0px)
-        rotate(-2deg);
+        rotate(-1.5deg);
     position: absolute;
     overflow-x: hidden;
 }
@@ -81,7 +81,7 @@ body {
     -webkit-transform:
         translateY(-50px)
         translateX(0px)
-        rotate(-2deg);
+        rotate(-1.5deg);
     position: absolute;
     overflow-x: hidden;
     right: -1px;
@@ -93,7 +93,7 @@ body {
     -webkit-transform:
         translateY(-50px)
         translateX(0px)
-        rotate(2deg);
+        rotate(1.5deg);
     position: absolute;
     overflow-x: hidden;
     right: -1px;
@@ -358,7 +358,7 @@ body {
 /* BOX Four - Projects----- */
 
 .box-four {
-  height: 2400px;
+  height: 2500px;
   background-color: white;
   overflow: hidden;
 
@@ -396,7 +396,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 0 auto;
   flex-wrap: wrap;
 }
