@@ -368,14 +368,14 @@ body {
   width: 80%;
   margin: 0 auto;
 
-
 }
 
 
 .projects-work-wrapper {
   padding-top: 50px;
-  position: relative;
-  max-height: 250px;
+  height: 400px;
+  /* position: relative; */
+
 }
 
 
@@ -392,6 +392,7 @@ body {
   min-height: 530px;
   margin: 0 auto;
   position: relative;
+
 }
 
 
@@ -461,6 +462,7 @@ body {
   top:4%;
   margin-left:auto;
   margin-right:auto;
+
 }
 
 .gallery-cell {
@@ -556,6 +558,7 @@ body {
 .copyright-block {
   color: white;
   float: right;
+  margin-bottom: 15px;
 }
 
 .contacts-and-copy-right-wrapper {
@@ -665,34 +668,61 @@ body {
   }
 }
 
-/* Smaller screens tablets */
+/* Smaller screens on laptop */
 
 @media screen and (max-width: 810px) {
-  .projects-screen {
-    background-image: none;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    min-width: 300px;
-    min-height: 530px;
-    margin: 0 auto;
-    position: relative;
+
+    .projects-screen {
+      background-image: none;
+      margin: 0 auto;
+      width: 100vw;
+      height: 300px;
+      min-height: 50px;
   }
 
-  .projects-info-wrapper {
-    padding-top: 50px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    margin-top: -50%;
+    .projects-info-wrapper {
+      padding-top: 50px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      margin-top: 135px;
+  }
+    .projects-work-wrapper {
+      padding-top: 50px;
+      height: 400px;
+      /* position: relative; */
+      width: 100vw;
+      /* display: block; */
+      margin: 0 auto;
+      position: absolute;
+      left: 0;
+  }
+    .flickity-container {
+      width: 100%;
+      max-width: 100%;
+      /* margin: 0 auto; */
+      /* position: absolute; */
+      /* left: 0; */
+      /* right: 0; */
+      /* top: 4%; */
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+      /* background-color: purple; */
+  }
+
+  .box-four {
+    height: 3900px;
 }
 }
 
-@media screen and (max-width: 880px) {
+/* ipad 4th gen Portait */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
   .top-logo-with-parallax {
     background-image: url("https://abihill.github.io/images/abi-hill-logo-glitch-white.gif");
     background-position: center;
@@ -743,6 +773,17 @@ body {
     background-attachment: inherit;
     /* background-image: url("images/LOGO-abi.jpg"); */
   }
+
+  .projects-info-wrapper {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
 }
 
 /* iphones */
@@ -755,6 +796,17 @@ body {
   }
   .topnav-container {
     margin: 0;
+  }
+
+  .projects-info-wrapper {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 50px;
   }
 }
 
@@ -772,6 +824,8 @@ body {
   }
 }
 
+
+
 /* iphone 6,7,8 plus in landscape */
 @media only screen
 @media only screen
@@ -786,10 +840,20 @@ and (max-device-width : 736px)
 and (orientation : portrait) { /* STYLES GO HERE */ }
 
 /* iphone 5 landscape */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : landscape) { /* STYLES GO HERE */}
+@media screen and (max-width : 568px) {
+
+  .projects-info-wrapper {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+}
 
 /* iphone 5 portrait */
 @media only screen
@@ -802,7 +866,7 @@ and (orientation : portrait) { /* STYLES GO HERE */ }
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) { /* STYLES GO HERE */ }
-/* ipad 4th generation portrait */
+/* ipad 4th generation landscape */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
