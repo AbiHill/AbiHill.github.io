@@ -826,18 +826,7 @@ and (orientation : portrait) {
 
 
 
-/* iphone 6,7,8 plus in landscape */
-@media only screen
-@media only screen
-and (min-device-width : 414px)
-and (max-device-width : 736px)
-and (orientation : landscape) { /* STYLES GO HERE */}
 
-/* iphone 6,7,8 plus in portrait */
-@media only screen
-and (min-device-width : 414px)
-and (max-device-width : 736px)
-and (orientation : portrait) { /* STYLES GO HERE */ }
 
 /* iphone 5 landscape */
 @media screen and (max-width : 568px) {
