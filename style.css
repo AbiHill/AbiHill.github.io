@@ -783,7 +783,7 @@ and (orientation : portrait) {
     margin: 0 auto;
     flex-wrap: wrap;
     margin-top: 90px;
-}
+  }
 }
 
 /* iphones */
